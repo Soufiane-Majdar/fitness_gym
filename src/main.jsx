@@ -19,7 +19,7 @@ root.render(
       <CssBaseline />
       <SnackbarProvider>
       
-        <BrowserRouter>
+        <BrowserRouter basename="/fitness_gym">
           <Routes>
             <Route path="/" element={<App />}>
               <Route index element={<Home />} />
